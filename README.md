@@ -1,5 +1,5 @@
 # Webpack 5 template for simple HTML/SASS/CSS/JS page
-If you want to quickly create a HTML/SASS/CSS/JS web page using the newest features of Java Sript and CSS and not want to worry about browsers coverage the template is for you.
+If you want to quickly create a HTML/SASS/CSS/JS web page using the newest features of Java Sript and CSS and not want to worry about browsers coverage, the template is for you.
 ## Installation
 Clone the repository and install dependencies using your favourite package manager e.g.:
 ```
