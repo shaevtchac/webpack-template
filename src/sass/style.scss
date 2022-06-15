@@ -1,0 +1,56 @@
+@use "config" as *;
+@use "home" as *;
+@use "menu" as *;
+@use "about" as *;
+
+@use "contact" as *;
+@use "responsive" as *;
+
+body {
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    a {
+        padding: 0.4rem;
+        @include transition-ease;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 1rem;
+    text-align: right;
+    padding: 1rem;
+    color: set-text-color($primary-color);
+}
